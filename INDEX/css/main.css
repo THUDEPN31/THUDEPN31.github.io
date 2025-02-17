@@ -1,5 +1,5 @@
-/* @import 'header.css';
-@import 'section.css'; */
+@import "header.css";
+@import "section.css";
 
 *{
     padding: 0;
@@ -21,7 +21,7 @@ footer a:hover{
     text-decoration: underline;
 }
 
-.temp{
+/* .temp{
     background-color: antiquewhite;
 }
 
@@ -69,4 +69,4 @@ header a:hover{
     background-color: white;
     width: 80px;
     height: 80px;
-}
+} */
