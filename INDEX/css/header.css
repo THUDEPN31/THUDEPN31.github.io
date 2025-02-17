@@ -1,6 +1,6 @@
 header{
     background-color: brown;
-    height: 80px;
+    height: 90px;
     width: 100%;
     position: fixed;
     top: 0;
@@ -10,33 +10,40 @@ header{
 
 h1{
     font-family: '楷体', KaiTi, STKaiti, '华文楷体', serif;
+    font-size: 36px;
     color: white;
     position: absolute;
-    left: 160px;
+    left: 270px;
     top: 0;
-    line-height: 80px;
-    text-indent: 80px;
-}
-header ul{
-    position: absolute;
-    right: 0;
-    top: 0;
-    line-height: 80px;
-}
-header li{
-    display: inline;
-    margin-right: 2vw;
-}
-header a{
-    color: lightgray;
-    text-decoration: none;
-}
-header a:hover{
-    text-decoration: underline;
+    line-height: 90px;
 }
 
 .headerlogo{
     background-color: white;
-    width: 80px;
-    height: 80px;
+    width: 90px;
+    height: 90px;
+}
+
+.menu-icon{
+    display: none;
+}
+
+.menu{
+    display: flex;
+    position: absolute;
+    right: 0;
+    top: 0;
+    line-height: 90px;
+}
+.menu ul li{
+    display: inline;
+    margin-right: 2vw;
+}
+.menu ul li a{
+    font-size: 18px;
+    color: white;
+    text-decoration: none;
+}
+.menu ul li a:hover{
+    text-decoration: underline;
 }

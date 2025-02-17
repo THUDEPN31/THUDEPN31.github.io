@@ -1,0 +1,14 @@
+footer{
+    background-color: black;
+    color: lightgray;
+    line-height: 40px;
+    text-align: center;
+
+}
+footer a{
+    color: lightgray;
+    text-decoration: none;
+}
+footer a:hover{
+    text-decoration: underline;
+}
