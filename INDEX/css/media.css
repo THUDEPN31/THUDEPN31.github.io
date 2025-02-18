@@ -109,5 +109,10 @@
         padding: 12.5vw 5vw 1.25vw;
         margin-bottom: 1.25vw;
     }
+
+    .content{
+        padding: 1.25vw 5vw 1.25vw;
+        margin-bottom: 1.25vw;
+    }
     /* footer */
 }

@@ -7,11 +7,31 @@
     padding: 90px 36px 9px;
     margin-bottom: 9px;
 }
-
 .introduction p{
     font-size: 18px;
     line-height: 1.5;
     text-indent: 2em;
     margin-top: 0.5em;
     margin-bottom: 0.5em;
+}
+
+.content{
+    background-color: antiquewhite;
+    padding: 9px 36px 9px;
+    margin-bottom: 9px;
+}
+.content h2{
+    font-size: 27px;
+    line-height: 1.5;
+}
+.content p{
+    font-size: 18px;
+    line-height: 1.5;
+    text-indent: 2em;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+}
+
+.website{
+    margin: 9px;
 }
