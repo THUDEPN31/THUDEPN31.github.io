@@ -46,6 +46,10 @@
     .website{
         width: 66.666666vw;
     }
+
+    .QRcode{
+        width: 66.666666vw;
+    }
 }
 
 @media (max-width: 720px){
@@ -122,6 +126,14 @@
 
     .website{
         width: 66.666666vw;
+    }
+
+    .QRcode{
+        width: 66.666666vw;
+    }
+    .QRcode img{
+        width: 50vw;
+        height: 50vw;
     }
     /* footer */
 }

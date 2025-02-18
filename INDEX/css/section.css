@@ -39,7 +39,7 @@
     margin: 18px auto;
     text-align: center;
 }
-.website p{
+.website h6{
     font-size: 18px;
     font-weight: bold;
     color: purple;
@@ -49,10 +49,46 @@
     margin-bottom: 0.5em;
 }
 .website a{
+    display: inline-block;
+    font-size: 18px;
+    text-align: left;
+    max-width: 90%;
+    word-wrap: break-word;
+    white-space: normal;
     font-weight: normal;
     color: blue;
+    line-height: 1.5;
+    text-indent: 0;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
     text-decoration: none;
 }
 .website a:hover{
     text-decoration: underline;
+}
+.website p{
+    text-align: left;
+    text-indent: 2em;
+}
+
+.QRcode{
+    border: 2.7px solid gray;
+    padding: 9px;
+    width: 720px;
+    margin: 18px auto;
+    text-align: center;
+}
+.QRcode p{
+    font-size: 18px;
+    font-weight: bold;
+    color: purple;
+    line-height: 1.5;
+    text-indent: 0;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+}
+.QRcode img{
+    width: 360px;
+    height: 360px;
+    object-fit: contain;
 }
