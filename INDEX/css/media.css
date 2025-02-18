@@ -106,7 +106,8 @@
     }
     /* section */
     .introduction{
-        margin: 12.5vw 0 1.25vw;
+        padding: 12.5vw 5vw 1.25vw;
+        margin-bottom: 1.25vw;
     }
     /* footer */
 }

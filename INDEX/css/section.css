@@ -4,5 +4,14 @@
 
 .introduction{
     background-color: antiquewhite;
-    margin: 90px 0 9px;
+    padding: 90px 36px 9px;
+    margin-bottom: 9px;
+}
+
+.introduction p{
+    font-size: 18px;
+    line-height: 1.5;
+    text-indent: 2em;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
 }
