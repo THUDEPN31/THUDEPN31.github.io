@@ -50,6 +50,10 @@
     .QRcode{
         width: 66.666666vw;
     }
+    /* schedule */
+    .course_registration_calendar{
+        width: 66.666666vw;
+    }
 }
 
 @media (max-width: 720px){
@@ -134,6 +138,19 @@
     .QRcode img{
         width: 50vw;
         height: 50vw;
+    }
+    /* schedule */
+    .course_registration_calendar{
+        width: 66.666666vw;
+        border: 0.375vw solid gray;
+        margin: 2.5vw auto;
+        border-collapse: collapse;
+        font-size: 2.5vw;
+    }
+    .course_registration_calendar th, td{
+        border: 0.375vw solid lightgray;
+        padding: 1.25vw;;
+        text-align: center;
     }
     /* footer */
 }

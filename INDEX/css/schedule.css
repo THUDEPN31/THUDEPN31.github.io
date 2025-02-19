@@ -1,0 +1,32 @@
+.course_registration_calendar{
+    width: 720px;
+    border: 2.7px solid gray;
+    margin: 18px auto;
+    border-collapse: collapse;
+    font-size: 18px;
+}
+  
+.course_registration_calendar th, td{
+    border: 1.8px solid lightgray;
+    padding: 9px;
+    text-align: center;
+}
+  
+.course_registration_calendar th{
+    color: purple;
+    background-color: #f2f2f2;
+}
+
+.course_registration_calendar tr:hover {
+    background-color: #f2f2f2;
+}
+
+.past{
+    color: gray;
+}
+.present{
+    color: red;
+}
+.future{
+    color: blue;
+}
