@@ -1,3 +1,42 @@
+.schedule{
+    border: 2.7px solid gray;
+    padding: 9px;
+    width: 720px;
+    margin: 18px auto;
+    text-align: center;
+}
+.schedule h6{
+    font-size: 18px;
+    font-weight: bold;
+    color: purple;
+    line-height: 1.5;
+    text-indent: 0;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+}
+.schedule a{
+    display: inline-block;
+    font-size: 18px;
+    text-align: left;
+    max-width: 90%;
+    word-wrap: break-word;
+    white-space: normal;
+    font-weight: normal;
+    color: blue;
+    line-height: 1.5;
+    text-indent: 0;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    text-decoration: none;
+}
+.schedule a:hover{
+    text-decoration: underline;
+}
+.schedule p{
+    text-align: left;
+    text-indent: 2em;
+}
+
 .course_registration_calendar{
     width: 720px;
     border: 2.7px solid gray;
@@ -5,19 +44,16 @@
     border-collapse: collapse;
     font-size: 18px;
 }
-  
 .course_registration_calendar th, td{
     border: 1.8px solid lightgray;
     padding: 9px;
     text-align: center;
 }
-  
 .course_registration_calendar th{
     color: purple;
     background-color: #f2f2f2;
 }
-
-.course_registration_calendar tr:hover {
+.course_registration_calendar tr:hover{
     background-color: #f2f2f2;
 }
 
