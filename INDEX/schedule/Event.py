@@ -7,7 +7,7 @@ from datetime import datetime, timedelta, time
 '''
 
 # 本学期开学日期
-DATE = "2025-02-17"
+DATE = "2025/02/17"
 # 本学期周数
 WEEK = 18
 
@@ -18,13 +18,13 @@ WEEK = 18
 # 导入excel数据与预处理
 excel_file = 'INDEX/schedule/Event.xlsx'
 df = pd.read_excel(excel_file)
-df['开始日期'] = df['开始日期'].dt.strftime('%Y-%m-%d')
-df['结束日期'] = df['结束日期'].dt.strftime('%Y-%m-%d')
+df['开始日期'] = df['开始日期'].dt.strftime('%Y/%m/%d')
+df['结束日期'] = df['结束日期'].dt.strftime('%Y/%m/%d')
 events_list = df.to_dict(orient='records')
 
 # 进行日期表示法与周次星期表示法的双向处理
 def Date2WeekDay(date):
-    date_format = "%Y-%m-%d"
+    date_format = "%Y/%m/%d"
     date1 = datetime.strptime(DATE, date_format).date()
     date2 = datetime.strptime(date, date_format).date()
     delta = date2 - date1
@@ -36,7 +36,7 @@ def Date2WeekDay(date):
     return week, day
 
 def WeekDay2Date(week, day):
-    date_format = "%Y-%m-%d"
+    date_format = "%Y/%m/%d"
     date1 = datetime.strptime(DATE, date_format).date()
     delta = 7 * (week-1) + day-1
     date2 = date1 + timedelta(days=delta)
