@@ -4,7 +4,7 @@ function numberToWeekday(number){
 }
 
 function loadEvents(){
-    fetch('Event.json')
+    fetch('./schedule/Event.json')
         .then(response => response.json())
         .then(events => {
             events.sort((eventA, eventB) => {
