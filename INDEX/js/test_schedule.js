@@ -184,6 +184,7 @@ function loadEvents(){
     });
     
     const SchedulePresent = document.getElementById('SchedulePresent');
+    const ScheduleFuture = document.getElementById('ScheduleFuture');
     const now = new Date();
     events.forEach(event => {
         const start = new Date(event.startdate + ' ' + event.starttime)
