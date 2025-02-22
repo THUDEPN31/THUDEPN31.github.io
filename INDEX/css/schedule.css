@@ -8,7 +8,6 @@
 .schedule h6{
     font-size: 18px;
     font-weight: bold;
-    color: purple;
     line-height: 1.5;
     text-indent: 0;
     margin-top: 0.5em;
@@ -55,14 +54,4 @@
 }
 .course_registration_calendar tr:hover{
     background-color: #f2f2f2;
-}
-
-.past{
-    color: gray;
-}
-.present{
-    color: red;
-}
-.future{
-    color: blue;
 }

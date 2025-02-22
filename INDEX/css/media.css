@@ -42,23 +42,9 @@
         background-color: gray;
         color: white;
     }
-    /* section */
-    .website{
-        width: 66.666666vw;
-    }
-
-    .QRcode{
-        width: 66.666666vw;
-    }
-    /* schedule */
-    .course_registration_calendar{
-        width: 66.666666vw;
-    }
 }
 
 @media (max-width: 720px){
-    /* main */
-
     /* header */
     header{
         height: 12.5vw;
@@ -128,29 +114,42 @@
         margin-bottom: 1.25vw;
     }
 
-    .website{
-        width: 66.666666vw;
-    }
-
-    .QRcode{
-        width: 66.666666vw;
-    }
     .QRcode img{
         width: 50vw;
         height: 50vw;
     }
     /* schedule */
     .course_registration_calendar{
-        width: 66.666666vw;
-        border: 0.375vw solid gray;
-        margin: 2.5vw auto;
-        border-collapse: collapse;
         font-size: 2.5vw;
     }
+}
+
+@media (max-width: 900px){
+    /* section */
+    .content img{
+        width: 80vw;
+    }
+
+    .website{
+        width: 80vw;
+    }
+
+    .QRcode{
+        width: 80vw;
+    }
+    /* schedule */
+    .schedule{
+        width: 80vw;
+    }
+    .course_registration_calendar{
+        width: 80vw;
+        border: 0.3vw solid gray;
+        margin: 2vw auto;
+        border-collapse: collapse;
+    }
     .course_registration_calendar th, td{
-        border: 0.375vw solid lightgray;
-        padding: 1.25vw;;
+        border: 0.2vw solid lightgray;
+        padding: 1vw;
         text-align: center;
     }
-    /* footer */
 }
