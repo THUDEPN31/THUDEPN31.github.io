@@ -20,7 +20,7 @@ function loadEvents(){
                 const start = new Date(event.startdate + ' ' + event.starttime)
                 const end = new Date(event.enddate + ' ' + event.endtime)
                 
-                if(now >= start && now <= end){
+                if(now <= end){
                     const schedule = document.createElement('div');
                     schedule.classList.add('schedule');
                     const eventname = document.createElement('h6');
@@ -32,12 +32,15 @@ function loadEvents(){
                     else{
                         eventname.textContent = event.event;
                     }
-                    eventname.style.color = 'red';
+                    if(now >= start) eventname.style.color = 'red';
+                    else eventname.style.color = 'blue';
                     schedule.appendChild(eventname);
 
                     if(event.startdate === event.enddate){
                         time.textContent = event.startdate + '(第' + event.startweek + '周' + numberToWeekday(event.startday)
-                        + ')' + event.starttime + '~' + event.endtime;
+                        + ')' ;
+                        if(!event.description.includes("具体时间待定"))
+                            time.textContent += event.starttime + '~' + event.endtime;
                     }
                     else{
                         time.textContent = event.startdate + '(第' + event.startweek + '周' + numberToWeekday(event.startday)
@@ -47,49 +50,21 @@ function loadEvents(){
                     time.style.color = 'purple';
                     schedule.appendChild(time);
 
+                    if(event.location != ''){
+                        const location = document.createElement('h6');
+                        location.textContent = event.location;
+                        location.style.color = 'purple';
+                        schedule.appendChild(location);
+                    }
+        
                     if(event.description != ''){
                         const description = document.createElement('p');
                         description.textContent = event.description;
                         schedule.appendChild(description);
                     }
 
-                    SchedulePresent.appendChild(schedule);
-                }
-
-                else if(now < start){
-                    const schedule = document.createElement('div');
-                    schedule.classList.add('schedule');
-                    const eventname = document.createElement('h6');
-                    const time = document.createElement('h6');
-
-                    if(event.type === "选课"){
-                        eventname.textContent = '选课：' + event.event;
-                    }
-                    else{
-                        eventname.textContent = event.event;
-                    }
-                    eventname.style.color = 'blue';
-                    schedule.appendChild(eventname);
-
-                    if(event.startdate === event.enddate){
-                        time.textContent = event.startdate + '(第' + event.startweek + '周' + numberToWeekday(event.startday)
-                        + ')' + event.starttime + '~' + event.endtime;
-                    }
-                    else{
-                        time.textContent = event.startdate + '(第' + event.startweek + '周' + numberToWeekday(event.startday)
-                        + ')' + event.starttime + '~' 
-                        + event.enddate + '(第' + event.endweek + '周' + numberToWeekday(event.endday) + ')' + event.endtime;
-                    }
-                    time.style.color = 'purple';
-                    schedule.appendChild(time);
-
-                    if(event.description != ''){
-                        const description = document.createElement('p');
-                        description.textContent = event.description;
-                        schedule.appendChild(description);
-                    }
-
-                    ScheduleFuture.appendChild(schedule);
+                    if(now >= start) SchedulePresent.appendChild(schedule);
+                    else ScheduleFuture.appendChild(schedule);
                 }
             });
         })

@@ -38,7 +38,9 @@ function loadEvents(){
 
                 if(event.startdate === event.enddate){
                     time.textContent = event.startdate + '(第' + event.startweek + '周' + numberToWeekday(event.startday)
-                    + ')' + event.starttime + '~' + event.endtime;
+                    + ')' ;
+                    if(!event.description.includes("具体时间待定"))
+                        time.textContent += event.starttime + '~' + event.endtime;
                 }
                 else{
                     time.textContent = event.startdate + '(第' + event.startweek + '周' + numberToWeekday(event.startday)
@@ -47,6 +49,13 @@ function loadEvents(){
                 }
                 time.style.color = 'purple';
                 schedule.appendChild(time);
+
+                if(event.location != ''){
+                    const location = document.createElement('h6');
+                    location.textContent = event.location;
+                    location.style.color = 'purple';
+                    schedule.appendChild(location);
+                }
 
                 if(event.description != ''){
                     const description = document.createElement('p');

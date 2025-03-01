@@ -49,6 +49,9 @@ def timeserializer(obj):
 i = 1
 for event in events_list:
     i += 1
+    if "具体时间待定" in str(event["描述"]):
+        event["开始时间"] = time(23,59)
+        event["结束时间"] = time(23,59)
     if pd.isna(event["开始时间"]):
         print(f"开始信息无法自动补全，错误行数{i}")
     else:
@@ -57,6 +60,8 @@ for event in events_list:
             if pd.isna(event["开始周次"]) or pd.isna(event["开始星期"]):
                 print(f"开始信息无法自动补全，错误行数{i}")
             else:
+                event["开始周次"] = int(event["开始周次"])
+                event["开始星期"] = int(event["开始星期"])
                 event["开始日期"] = WeekDay2Date(event["开始周次"], event["开始星期"])
         else:
             event["开始周次"], event["开始星期"] = Date2WeekDay(event["开始日期"])
@@ -70,11 +75,15 @@ for event in events_list:
                 event["结束周次"] = event["开始周次"]
                 event["结束星期"] = event["开始星期"]
             else:
+                event["结束周次"] = int(event["结束周次"])
+                event["结束星期"] = int(event["结束星期"])
                 event["结束日期"] = WeekDay2Date(event["结束周次"], event["结束星期"])
         else:
             event["结束周次"], event["结束星期"] = Date2WeekDay(event["结束日期"])
     if pd.isna(event["描述"]):
         event["描述"] = ""
+    if pd.isna(event["地点"]):
+        event["地点"] = ""
 
 # 转换为所需的JSON格式
 formatted_events = [{"startdate": event["开始日期"], 
@@ -85,6 +94,7 @@ formatted_events = [{"startdate": event["开始日期"],
                      "endtime": event["结束时间"],
                      "endweek": event["结束周次"],
                      "endday": event["结束星期"],
+                     "location": event["地点"],
                      "type": event["类别"],
                      "event": event["事件"],
                      "description": event["描述"]
