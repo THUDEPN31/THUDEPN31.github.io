@@ -59,7 +59,7 @@ function loadEvents(){
         
                     if(event.description != ''){
                         const description = document.createElement('p');
-                        description.textContent = event.description;
+                        description.innerHTML = event.description;
                         schedule.appendChild(description);
                     }
 

@@ -209,6 +209,20 @@ events = [
         "type": "活动",
         "event": "女生节",
         "description": "具体时间待定"
+    },
+    {
+        "startdate": "2025/03/14",
+        "starttime": "10:00",
+        "startweek": 4,
+        "startday": 5,
+        "enddate": "2025/03/25",
+        "endtime": "17:00",
+        "endweek": 6,
+        "endday": 2,
+        "location": "",
+        "type": "事务",
+        "event": "英语四、六级考试报名",
+        "description": "详见<a href=\"https://info.tsinghua.edu.cn/f/info/xxfb_fg/xnzx/template/detail?xxid=dfb5ef7690dba841d381d5e5b500179e\" target=\"_blank\"   class=\"normal\">《关于2025年上半年全国大学英语四、六级考试报名的通知》</a>"
     }
 ]
 
@@ -270,7 +284,7 @@ function loadEvents(){
 
             if(event.description != ''){
                 const description = document.createElement('p');
-                description.textContent = event.description;
+                description.innerHTML = event.description;
                 schedule.appendChild(description);
             }
 
