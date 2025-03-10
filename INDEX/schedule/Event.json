@@ -196,20 +196,6 @@
         "description": "成绩分析+本学期班级事务介绍"
     },
     {
-        "startdate": "2025/03/10",
-        "starttime": "23:59",
-        "startweek": 4,
-        "startday": 1,
-        "enddate": "2025/03/10",
-        "endtime": "23:59",
-        "endweek": 4,
-        "endday": 1,
-        "location": "",
-        "type": "活动",
-        "event": "女生节",
-        "description": "具体时间待定"
-    },
-    {
         "startdate": "2025/03/14",
         "starttime": "10:00",
         "startweek": 4,
