@@ -252,17 +252,45 @@
         "description": "具体时间待定"
     },
     {
-        "startdate": "2025/03/30",
+        "startdate": "2025/05/11",
         "starttime": "23:59",
-        "startweek": 6,
+        "startweek": 12,
         "startday": 7,
-        "enddate": "2025/03/30",
+        "enddate": "2025/05/11",
         "endtime": "23:59",
-        "endweek": 6,
+        "endweek": 12,
         "endday": 7,
         "location": "",
         "type": "活动",
         "event": "主题党团日",
         "description": "具体时间待定"
+    },
+    {
+        "startdate": "2025/03/15",
+        "starttime": "14:30",
+        "startweek": 4,
+        "startday": 6,
+        "enddate": "2025/03/15",
+        "endtime": "15:00",
+        "endweek": 4,
+        "endday": 6,
+        "location": "刘卿楼110",
+        "type": "活动",
+        "event": "团组织生活会",
+        "description": ""
+    },
+    {
+        "startdate": "2025/03/15",
+        "starttime": "14:00",
+        "startweek": 4,
+        "startday": 6,
+        "enddate": "2025/03/15",
+        "endtime": "17:00",
+        "endweek": 4,
+        "endday": 6,
+        "location": "刘卿楼110",
+        "type": "活动",
+        "event": "集体自习",
+        "description": "markdown基本讲解、核辐射物理及探测学或量子力学知识梳理"
     }
 ]

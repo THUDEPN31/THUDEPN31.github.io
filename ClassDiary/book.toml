@@ -1,0 +1,23 @@
+[book]
+authors = ["Qhy23"]
+language = "zh-CN"
+multilingual = false
+src = "src"
+title = "ClassDiary"
+
+[preprocessor.katex]
+after = ["links"]
+output = "htmlAndMathml"
+pre-render = true
+
+[output.html.search]
+boost-hierarchy = 2
+boost-paragraph = 1
+boost-title = 2
+expand = true
+heading-split-level = 2
+limit-results = 20
+use-boolean-and = true
+
+[output.html]
+additional-css = ["css/fontsize.css"]
