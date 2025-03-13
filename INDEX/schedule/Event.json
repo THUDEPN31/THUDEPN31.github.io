@@ -267,11 +267,11 @@
     },
     {
         "startdate": "2025/03/15",
-        "starttime": "14:30",
+        "starttime": "15:30",
         "startweek": 4,
         "startday": 6,
         "enddate": "2025/03/15",
-        "endtime": "15:00",
+        "endtime": "16:00",
         "endweek": 4,
         "endday": 6,
         "location": "刘卿楼110",
@@ -291,6 +291,6 @@
         "location": "刘卿楼110",
         "type": "活动",
         "event": "集体自习",
-        "description": "markdown基本讲解、核辐射物理及探测学或量子力学知识梳理"
+        "description": "markdown基本讲解、核辐射物理及探测学知识梳理"
     }
 ]
