@@ -8,7 +8,7 @@ class MDBookSidebarScrollbox extends HTMLElement {
         super();
     }
     connectedCallback() {
-        this.innerHTML = '<ol class="chapter"><li class="chapter-item expanded "><a href="introduction.html"><strong aria-hidden="true">1.</strong> 主页</a></li><li class="chapter-item expanded affix "><li class="part-title">量子力学笔记</li><li class="chapter-item expanded "><a href="量子力学/第1章 波函数与薛定谔方程.html"><strong aria-hidden="true">2.</strong> 第1章 波函数与薛定谔方程</a></li><li class="chapter-item expanded "><a href="量子力学/第2章 一维势场中的粒子.html"><strong aria-hidden="true">3.</strong> 第2章 一维势场中的粒子</a></li><li class="chapter-item expanded "><a href="量子力学/第3章 力学量用算符表达.html"><strong aria-hidden="true">4.</strong> 第3章 力学量用算符表达</a></li></ol>';
+        this.innerHTML = '<ol class="chapter"><li class="chapter-item expanded "><a href="introduction.html"><strong aria-hidden="true">1.</strong> 主页</a></li><li class="chapter-item expanded affix "><li class="part-title">量子力学笔记</li><li class="chapter-item expanded "><a href="量子力学/第1章 波函数与薛定谔方程.html"><strong aria-hidden="true">2.</strong> 第1章 波函数与薛定谔方程</a></li><li class="chapter-item expanded "><a href="量子力学/第2章 一维势场中的粒子.html"><strong aria-hidden="true">3.</strong> 第2章 一维势场中的粒子</a></li><li class="chapter-item expanded "><a href="量子力学/第3章 力学量用算符表达.html"><strong aria-hidden="true">4.</strong> 第3章 力学量用算符表达</a></li><li class="chapter-item expanded "><a href="量子力学/第4章 量子力学的矩阵形式与表象理论.html"><strong aria-hidden="true">5.</strong> 第4章 量子力学的矩阵形式与表象理论</a></li></ol>';
         // Set the current, active page, and reveal it if it's hidden
         let current_page = document.location.href.toString().split("#")[0];
         if (current_page.endsWith("/")) {
