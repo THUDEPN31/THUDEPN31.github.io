@@ -211,17 +211,17 @@
     },
     {
         "startdate": "2025/04/04",
-        "starttime": "23:59",
+        "starttime": "10:00",
         "startweek": 7,
         "startday": 5,
         "enddate": "2025/04/04",
-        "endtime": "23:59",
+        "endtime": "15:30",
         "endweek": 7,
         "endday": 5,
         "location": "",
         "type": "活动",
         "event": "清明踏青",
-        "description": "具体时间待定"
+        "description": "玉渊潭公园踏青，同时举行摄影比赛。"
     },
     {
         "startdate": "2025/05/18",
@@ -292,5 +292,33 @@
         "type": "活动",
         "event": "集体自习",
         "description": "markdown基本讲解、核辐射物理及探测学知识梳理"
+    },
+    {
+        "startdate": "2025/03/30",
+        "starttime": "10:00",
+        "startweek": 6,
+        "startday": 7,
+        "enddate": "2025/03/30",
+        "endtime": "12:00",
+        "endweek": 6,
+        "endday": 7,
+        "location": "刘卿楼110",
+        "type": "活动",
+        "event": "集体自习",
+        "description": "量子力学知识梳理"
+    },
+    {
+        "startdate": "2025/03/30",
+        "starttime": "09:00",
+        "startweek": 6,
+        "startday": 7,
+        "enddate": "2025/03/30",
+        "endtime": "10:00",
+        "endweek": 6,
+        "endday": 7,
+        "location": "刘卿楼110",
+        "type": "活动",
+        "event": "固本计划导读会",
+        "description": "《政治经济学概论》导读与第一章介绍"
     }
 ]
