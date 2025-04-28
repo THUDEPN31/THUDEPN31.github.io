@@ -239,17 +239,17 @@
     },
     {
         "startdate": "2025/04/27",
-        "starttime": "23:59",
+        "starttime": "09:00",
         "startweek": 10,
         "startday": 7,
         "enddate": "2025/04/27",
-        "endtime": "23:59",
+        "endtime": "12:00",
         "endweek": 10,
         "endday": 7,
         "location": "",
         "type": "活动",
         "event": "深耕实践",
-        "description": "具体时间待定"
+        "description": "参观中国钱币博物馆"
     },
     {
         "startdate": "2025/05/11",
@@ -320,5 +320,75 @@
         "type": "活动",
         "event": "固本计划导读会",
         "description": "《政治经济学概论》导读与第一章介绍"
+    },
+    {
+        "startdate": "2025/04/10",
+        "starttime": "19:20",
+        "startweek": 8,
+        "startday": 4,
+        "enddate": "2025/04/10",
+        "endtime": "20:55",
+        "endweek": 8,
+        "endday": 4,
+        "location": "四教4202",
+        "type": "活动",
+        "event": "小班辅导",
+        "description": "核辐射物理及探测学小班辅导，主讲人：郑如意"
+    },
+    {
+        "startdate": "2025/04/13",
+        "starttime": "14:30",
+        "startweek": 8,
+        "startday": 7,
+        "enddate": "2025/04/13",
+        "endtime": "16:30",
+        "endweek": 8,
+        "endday": 7,
+        "location": "四教4201",
+        "type": "活动",
+        "event": "小班辅导",
+        "description": "模拟电子技术基础B小班辅导，主讲人：胡麒麟"
+    },
+    {
+        "startdate": "2025/04/13",
+        "starttime": "19:20",
+        "startweek": 8,
+        "startday": 7,
+        "enddate": "2025/04/13",
+        "endtime": "20:55",
+        "endweek": 8,
+        "endday": 7,
+        "location": "六教6A209",
+        "type": "活动",
+        "event": "小班辅导",
+        "description": "量子力学小班辅导，主讲人：郑济东"
+    },
+    {
+        "startdate": "2025/05/17",
+        "starttime": "23:59",
+        "startweek": 13,
+        "startday": 6,
+        "enddate": "2025/05/17",
+        "endtime": "23:59",
+        "endweek": 13,
+        "endday": 6,
+        "location": "",
+        "type": "活动",
+        "event": "集体自习",
+        "description": "具体时间待定"
+    },
+    {
+        "startdate": "2025/05/31",
+        "starttime": "23:59",
+        "startweek": 15,
+        "startday": 6,
+        "enddate": "2025/05/31",
+        "endtime": "23:59",
+        "endweek": 15,
+        "endday": 6,
+        "location": "",
+        "type": "活动",
+        "event": "集体自习",
+        "description": "具体时间待定"
     }
 ]
