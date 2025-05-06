@@ -12,7 +12,7 @@ function events2html(event, color, Schedule){
     if(event.type === "选课"){
         eventname.textContent = '选课：' + event.event;
     }
-    if(event.type === "选课-夏"){
+    else if(event.type === "选课-夏"){
         eventname.textContent = '选课-夏：' + event.event;
     }
     else{
