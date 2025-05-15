@@ -22,15 +22,21 @@ function events2html(event, color, Schedule){
     schedule.appendChild(eventname);
 
     if(event.startdate === event.enddate){
-        time.textContent = event.startdate + '(第' + event.startweek + '周' + numberToWeekday(event.startday)
-        + ')' ;
+        time.textContent = event.startdate + '(' ;
+        if(event.startweek != 0)
+            time.textContent += '第' + event.startweek + '周' ;
+        time.textContent += numberToWeekday(event.startday) + ')' ;
         if(!event.description.includes("具体时间待定"))
-            time.textContent += event.starttime + '~' + event.endtime;
+             time.textContent += event.starttime + '~' + event.endtime;
     }
     else{
-        time.textContent = event.startdate + '(第' + event.startweek + '周' + numberToWeekday(event.startday)
-        + ')' + event.starttime + '~' 
-        + event.enddate + '(第' + event.endweek + '周' + numberToWeekday(event.endday) + ')' + event.endtime;
+        time.textContent = event.startdate + '(' ;
+        if(event.startweek != 0)
+            time.textContent += '第' + event.startweek + '周' ;
+        time.textContent += numberToWeekday(event.startday) + ')' + event.starttime + '~' + event.enddate + '(' ;
+        if(event.endweek != 0)
+            time.textContent += '第' + event.endweek + '周' ;
+        time.textContent += numberToWeekday(event.endday) + ')' + event.endtime;
     }
     time.style.color = 'purple';
     schedule.appendChild(time);
