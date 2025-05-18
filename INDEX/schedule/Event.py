@@ -29,10 +29,10 @@ def Date2WeekDay(date):
     date2 = datetime.strptime(date, date_format).date()
     delta = date2 - date1
     days = delta.days + 1
-    week = days // 7 + 1
+    week = delta.days // 7 + 1
     if week < 1 or week > WEEK:
         week = 0
-    day = days % 7
+    day = delta.days % 7 + 1
     return week, day
 
 def WeekDay2Date(week, day):
