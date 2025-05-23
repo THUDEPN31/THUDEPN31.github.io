@@ -319,7 +319,7 @@
         "location": "四教4202",
         "type": "活动",
         "event": "小班辅导",
-        "description": "核辐射物理及探测学小班辅导，主讲人：郑如意"
+        "description": "核辐射物理及探测学期中小班辅导，主讲人：郑如意"
     },
     {
         "startdate": "2025/04/13",
@@ -333,7 +333,7 @@
         "location": "四教4201",
         "type": "活动",
         "event": "小班辅导",
-        "description": "模拟电子技术基础B小班辅导，主讲人：胡麒麟"
+        "description": "模拟电子技术基础B期中小班辅导，主讲人：胡麒麟"
     },
     {
         "startdate": "2025/04/13",
@@ -347,21 +347,21 @@
         "location": "六教6A209",
         "type": "活动",
         "event": "小班辅导",
-        "description": "量子力学小班辅导，主讲人：郑济东"
+        "description": "量子力学期中小班辅导，主讲人：郑济东"
     },
     {
-        "startdate": "2025/05/24",
-        "starttime": "23:59",
+        "startdate": "2025/05/25",
+        "starttime": "14:00",
         "startweek": 14,
-        "startday": 6,
-        "enddate": "2025/05/24",
-        "endtime": "23:59",
+        "startday": 7,
+        "enddate": "2025/05/25",
+        "endtime": "16:00",
         "endweek": 14,
-        "endday": 6,
-        "location": "",
-        "type": "活动",
-        "event": "集体自习",
-        "description": "具体时间待定"
+        "endday": 7,
+        "location": "建筑馆报告厅",
+        "type": "事务",
+        "event": "“万象”工物系甲团风采展示会",
+        "description": "工物系二、三、四字班甲团评比"
     },
     {
         "startdate": "2025/05/27",
@@ -432,5 +432,47 @@
         "type": "事务",
         "event": "英语六级考试",
         "description": ""
+    },
+    {
+        "startdate": "2025/06/01",
+        "starttime": "23:59",
+        "startweek": 15,
+        "startday": 7,
+        "enddate": "2025/06/01",
+        "endtime": "23:59",
+        "endweek": 15,
+        "endday": 7,
+        "location": "",
+        "type": "活动",
+        "event": "小班辅导",
+        "description": "核辐射物理及探测学期末小班辅导，具体时间待定"
+    },
+    {
+        "startdate": "2025/06/05",
+        "starttime": "23:59",
+        "startweek": 16,
+        "startday": 4,
+        "enddate": "2025/06/05",
+        "endtime": "23:59",
+        "endweek": 16,
+        "endday": 4,
+        "location": "",
+        "type": "活动",
+        "event": "小班辅导",
+        "description": "量子力学期末小班辅导，具体时间待定"
+    },
+    {
+        "startdate": "2025/06/10",
+        "starttime": "23:59",
+        "startweek": 17,
+        "startday": 2,
+        "enddate": "2025/06/10",
+        "endtime": "23:59",
+        "endweek": 17,
+        "endday": 2,
+        "location": "",
+        "type": "活动",
+        "event": "小班辅导",
+        "description": "模拟电子技术基础B期末小班辅导，具体时间待定"
     }
 ]
