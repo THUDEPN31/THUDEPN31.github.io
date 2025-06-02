@@ -434,18 +434,18 @@
         "description": ""
     },
     {
-        "startdate": "2025/06/01",
-        "starttime": "23:59",
-        "startweek": 15,
-        "startday": 7,
-        "enddate": "2025/06/01",
-        "endtime": "23:59",
-        "endweek": 15,
-        "endday": 7,
-        "location": "",
+        "startdate": "2025/06/02",
+        "starttime": "09:50",
+        "startweek": 16,
+        "startday": 1,
+        "enddate": "2025/06/02",
+        "endtime": "12:00",
+        "endweek": 16,
+        "endday": 1,
+        "location": "六教6A205",
         "type": "活动",
         "event": "小班辅导",
-        "description": "核辐射物理及探测学期末小班辅导，具体时间待定"
+        "description": "核辐射物理及探测学期末小班辅导，主讲人：高谨泽、邓日灿、钱昊远"
     },
     {
         "startdate": "2025/06/05",
