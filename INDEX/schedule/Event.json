@@ -449,30 +449,16 @@
     },
     {
         "startdate": "2025/06/05",
-        "starttime": "23:59",
+        "starttime": "19:20",
         "startweek": 16,
         "startday": 4,
         "enddate": "2025/06/05",
-        "endtime": "23:59",
+        "endtime": "22:30",
         "endweek": 16,
         "endday": 4,
-        "location": "",
+        "location": "四教4202",
         "type": "活动",
-        "event": "小班辅导",
-        "description": "量子力学期末小班辅导，具体时间待定"
-    },
-    {
-        "startdate": "2025/06/10",
-        "starttime": "23:59",
-        "startweek": 17,
-        "startday": 2,
-        "enddate": "2025/06/10",
-        "endtime": "23:59",
-        "endweek": 17,
-        "endday": 2,
-        "location": "",
-        "type": "活动",
-        "event": "小班辅导",
-        "description": "模拟电子技术基础B期末小班辅导，具体时间待定"
+        "event": "集体自习",
+        "description": ""
     }
 ]
