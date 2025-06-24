@@ -7,9 +7,9 @@ from datetime import datetime, timedelta, time
 '''
 
 # 本学期开学日期
-DATE = "2025/02/17"
+DATE = "2025/6/23"
 # 本学期周数
-WEEK = 18
+WEEK = 12
 
 '''
 以下代码一般不需修改
