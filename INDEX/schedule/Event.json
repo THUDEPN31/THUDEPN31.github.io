@@ -166,5 +166,47 @@
         "type": "选课",
         "event": "退课（第二阶段）",
         "description": "只允许后八周开课的课程退课，所删课程不记录在成绩单上，其他课程、北大、北外课程均不可退课。"
+    },
+    {
+        "startdate": "2026/06/02",
+        "starttime": "13:00",
+        "startweek": 15,
+        "startday": 2,
+        "enddate": "2026/06/12",
+        "endtime": "16:00",
+        "endweek": 16,
+        "endday": 5,
+        "location": "",
+        "type": "选课-夏",
+        "event": "选课",
+        "description": "先选先得，选满为止。"
+    },
+    {
+        "startdate": "2026/06/13",
+        "starttime": "13:00",
+        "startweek": 16,
+        "startday": 6,
+        "enddate": "2026/08/27",
+        "endtime": "12:00",
+        "endweek": 0,
+        "endday": 4,
+        "location": "",
+        "type": "选课-夏",
+        "event": "网上申请特殊原因补选",
+        "description": "学生网上申请，经任课教师、开课院系网上两重审批均通过后，方可补选成功。"
+    },
+    {
+        "startdate": "2026/08/28",
+        "starttime": "8:00",
+        "startweek": 0,
+        "startday": 5,
+        "enddate": "2026/09/03",
+        "endtime": "16:00",
+        "endweek": 0,
+        "endday": 4,
+        "location": "",
+        "type": "选课-夏",
+        "event": "退课",
+        "description": "所退课程在成绩单上记“W”。"
     }
 ]
